@@ -7,7 +7,7 @@ public class Triangle {
 		int c = Integer.parseInt(args[2]);
 		if ((a < (b + c)) && (b < (a + c)) && (c < (a + b)))
 			isTriangle = true;
-		System.out.println(isTriangle);
+		System.out.println(a + ", " + b + ", " + c + ": " + isTriangle);
 
 	}	
 
